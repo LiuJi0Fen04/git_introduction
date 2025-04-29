@@ -1,0 +1,18 @@
+git config --global user.email "205844372@qq.com"
+git config --global user.name "LiuJi0Fen04"
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+cat ~/.ssh/id_rsa.pub | clip  # For Windows
+pbcopy < ~/.ssh/id_rsa.pub   # For macOS
+cat ~/.ssh/id_rsa.pub        # For Linux (then manually copy)
+
+
+
+echo "# git_introduction" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:LiuJi0Fen04/git_introduction.git
+git push -u origin master
