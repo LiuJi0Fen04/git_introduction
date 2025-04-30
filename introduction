@@ -19,3 +19,8 @@ git push -u origin master
 
 
 git branch -r
+
+
+git rm --cached -r <directory>
+
+git config --global core.excludesfile ~/.gitignore_global
