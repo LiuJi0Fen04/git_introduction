@@ -1,7 +1,8 @@
 # Ignore Visual Studio & VS Code settings
 .vs/
 .vscode/
-
+**/.vs/
+**/.vscode/
 # Ignore common build artifacts
 *.exe
 *.obj
@@ -19,6 +20,8 @@
 # Ignore compiled binaries and caches
 bin/
 obj/
-
+**/bin/
+**/obj/
 # vs cmake 
 out/
+**/out/
