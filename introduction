@@ -29,3 +29,6 @@ git push origin --delete main
 
 git reset --hard HEAD
 
+
+git checkout -b new_branch
+git push -u origin new_branch
